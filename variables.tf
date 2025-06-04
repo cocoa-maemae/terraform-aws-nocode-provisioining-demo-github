@@ -1,9 +1,9 @@
-variable "aws_access_key" {
+variable "sns_topic_name" {
   type    = string
   default = ""
 }
 
-variable "aws_secret_key" {
+variable "notification_email" {
   type    = string
   default = ""
 }
